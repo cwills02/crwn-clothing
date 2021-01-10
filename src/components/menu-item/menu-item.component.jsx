@@ -27,3 +27,5 @@ export default withRouter(MenuItem);
 
 // withRouter is a HOC, which means its a function that takes a component as an argument and returns a new component with new properties
 // e.g., withRouter() gives us the history, match, and params properties from the react-router-dom library
+
+// very confusing point: her match.url is coming from the router directing us to the '/' in our case, and we are appending the linkUrl from the sections in the directory
