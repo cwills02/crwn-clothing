@@ -36,7 +36,6 @@ class App extends React.Component {
           //     console.log(this.state);
           //     // we have to call console.log(this.state) after we get back the async info from setState because setState is asynchronous, means there is a chance when we call that setState is not finished being called. Only way to call this.state correctly after setState is to pass a second function as an argument to the setState so we can log there
           // })
-          console.log(this.state);
         });
       }
       else {
